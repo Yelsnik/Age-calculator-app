@@ -39,7 +39,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [age-calculator-app-steel.vercel.app](https://age-calculator-app-steel.vercel.app/)
 
 ## My process
