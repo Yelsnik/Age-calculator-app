@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <!--
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />-->
+    <link href="/css/output.css" rel="stylesheet">
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-gray-300">
+    <main class="flex justify-center lg:pt-40 px-2 pt-20">
+      <div class="grid border-2 max-w-screen-md lg:max-w-screen-lg bg-white container overflow-hidden py-5 rounded-3xl shadow-md px-2 " id="container">
+        <div class="sm:pl-2 lg:pl-10">
+          <form class="lg:mt-5" id="form">
+            <div class="grid grid-cols-3 gap-3 w-full lg:flex lg:gap-8">
+            <div class="font-poppins">
+              <label class="lg:text-sm text-xs text-gray-500 font-semibold font-poppins uppercase" id="textday">Day</label>
+              <input type="number" name="day" placeholder="DD" id="day" class="border-2 w-full md:w-full h-11 rounded-lg text-center lg:text-2xl lg:font-bold md:h-14 lg:h-10 lg:w-40 ">
+              <div class="w-full" id="errorday"></div>
+            <div class="w-full text-red-500 hidden" id="errorday-1">Must be a valid day</div>
+          </div>
+            <div class="font-poppins">
+              <label class="lg:text-sm text-xs text-gray-500 font-semibold uppercase" id="textmonth">Month</label>
+              <input type="number" name="month" placeholder="MM" id="month" class="border-2 w-full h-11 rounded-lg text-center lg:text-2xl lg:font-bold md:h-14  lg:h-10  md:w-full lg:w-40">
+              <div class="w-full" id="errormonth"></div>
+              <div ><p class="w-full text-red-500 hidden" id="errormonth-1">Must be a valid month</p></div>
+            </div>
+            <div class="font-poppins">
+              <label class="lg:text-sm text-xs text-gray-500 font-poppins font-semibold uppercase" id="textyear">Year</label>
+              <input type="number" name="year" placeholder="YYYY" id="year" class="border-2 w-full h-11 rounded-lg text-center lg:text-2xl lg:font-bold md:h-14 lg:h-10 md:w-full lg:w-40">
+              <div class="w-full" id="erroryear"></div>
+              <div class="w-full text-red-500 hidden" id="erroryear-1">Must be in the past</div>
+            </div>
+            <div class="hidden lg:block lg:ml-28 lg:relative top-20 right-2">
+              <button id="btn-1"><img src="age-calculator-app-main/assets/images/icon-arrow.svg" class="border-2 p-3 relative right-5 rounded-full bg-purple-800 hover:bg-black"></button>
+            </div>
+          </div>
+          <div class="border-2 my-10 lg:my-0 relative top-5 lg:relative lg:top-11 lg:mr-20"></div>
+          <div class="grid justify-center relative bottom-12 lg:hidden">
+            <button id="btn-2"><img src="age-calculator-app-main/assets/images/icon-arrow.svg" class="grid justify-center bg-purple-800 w-full object-cover rounded-full p-3 hover:bg-black"></button>
+          </div>
+          </form>
+
+          <!--Output-->
+          <div class="mt-0 mb-12 lg:mt-16 lg:mb-10">
+            <div  class="font-poppins font-bold text-5xl sm:text-7xl md:text-8xl">
+              <div class="flex"><div class="lg:text-8xl text-purple-800 italic font-poppins" id="yr">--</div><span class="lg:text-8xl lg:font-extrabold font-poppinsExtrabold italic">Years</span></div>
+            </div>
+          <div class="font-poppins font-bold text-5xl sm:text-7xl md:text-8xl">
+            <div class="flex"><div class="lg:text-8xl text-purple-800 italic font-poppins" id="mth">--</div><span class="lg:text-8xl lg:font-extrabold font-poppins italic">months</span></div>
+          </div>
+          <div  class="font-poppins font-bold text-5xl sm:text-7xl md:text-8xl">
+            <div class="flex font-bold"><div class="lg:text-8xl text-purple-800 italic font-poppins" id="dy">--</div><span class="lg:text-8xl lg:font-extrabold font-poppins italic">days</span></div>
+          </div>
+        </div>
+        </div>
+        </div>
+      </div>
+    </main>
+      
+      <div class="attribution relative top-40 right-6 grid sm:right-3">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://twitter.com/itzz_okure">okure</a>.
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
