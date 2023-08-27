@@ -8,15 +8,15 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
+
+An age calculator app challenge from Frontend mentor. The developer is tasked with building this web app to make it as similar to the design as possible. Tech stacks that are necessary to build this project includes HTML, CSS and JavaScript. Of course, other technologies can be incorporated into this project. Since I am familiar with Tailwind CSS, I will be using it to build this web app.
 
 ### The challenge
 
@@ -41,8 +41,6 @@ Users should be able to:
 
 - Live Site URL: [age-calculator-appk.vercel.app](https://age-calculator-appk.vercel.app/)
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
@@ -55,7 +53,7 @@ This project taught me a lot about CSS grids and layouts. I learnt how to build 
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+There are still some things to be improved in this app. For example, the font family used is not as identical as the design. I will love to improve on this in the future.
 
 ## Author
 
